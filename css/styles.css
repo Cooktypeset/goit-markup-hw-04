@@ -153,6 +153,7 @@ button {
   row-gap: 48px;
   flex-wrap: wrap;
 }
+
 .images-subject {
   margin-bottom: 8px;
 }
@@ -214,11 +215,12 @@ button {
 }
 /*==================================MAIN SECTION1==============================*/
 .section {
+  width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
 }
 .hero-background {
-  max-width: 1440px;
+  width: 100%;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -365,12 +367,13 @@ button {
   height: 100%;
   align-items: center;
   justify-content: center;
-  fill: var(--icon-fill-color);
+  color: var(--icon-fill-color);
   border: 1px solid var(--icon-fill-color);
 }
 .clients-link:hover,
 .clients-link:focus {
-  fill: var(--accent-hoverfa-color);
+  color: var(--accent-hoverfa-color);
+  border-color: var(--accent-hoverfa-color);
 }
 .clients-icon {
   fill: currentColor;
@@ -484,7 +487,9 @@ button {
 .button-text:focus {
   color: var(--phon-white-color);
 }
-
+.images-link-picture {
+  display: block;
+}
 .images-link-picture:hover {
   border: 1px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
