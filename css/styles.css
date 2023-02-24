@@ -372,6 +372,9 @@ button {
 .clients-link:focus {
   fill: var(--accent-hoverfa-color);
 }
+.clients-icon {
+  fill: currentColor;
+}
 /*================================FOOTER=====================================*/
 .container-holder {
   display: flex;
@@ -502,6 +505,7 @@ button {
 .images-text {
   color: var(--main-color);
 }
+
 /* FOOTER IN STUDIO */
 /* ======================ICONS====================== */
 /* ==================DECORATIVEICONS SECTION2================= */
